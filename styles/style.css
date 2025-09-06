@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
+/* shared styles start */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+     font-family: "Inter", sans-serif;
+     background-color: #000000;
+}
+.miama {
+    font-family: 'Miama', sans-serif;
+}
+.max-width {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.none-pc {
+    display: none;
+}
+/* shared styles end */
+
+/* navbar styles start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 57px;
+    margin-bottom: 32px
+}
+nav h2 {
+    color: #E6533C;
+    font-size: 2.3rem;
+    font-weight: 800;
+    line-height: 120%;
+}
+nav ul {
+    display: flex;
+    gap: 47px;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 4px 20px 5px 5px;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 120%;
+    cursor: pointer;
+}
+#home {
+    background-color: #E6533C;
+    padding: 8px 18px;
+    border-radius: 46px;
+}
+.hamburgur {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+/* navbar styles end */
+
+@media screen  and (max-width: 567px) {
+    body {
+        padding: 0 15px;
+    }
+    .none-mobile {
+        display: none;
+    }
+    .hamburgur {
+        display: block;
+        color: #FFFFFF;
+    }
+    
+}
