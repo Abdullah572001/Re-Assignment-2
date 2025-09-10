@@ -222,6 +222,40 @@ nav ul li a {
 }
 /* habits sectiion styles end */
 
+/* run section styles start */
+.run {
+    display: flex;
+    gap: 165px;
+    align-items: center;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.2);
+}
+.run-text h2 {
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 120%;
+    margin-bottom: 14px;
+}
+.run-text p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 34px;
+}
+.run-text .btn {
+    padding: 16px 71px;
+}
+.run-img img {
+    width: 100%;
+    border-radius: 18px;
+}
+/* run section styles end */
+
 
 /* mobile section styles start */
 @media screen  and (max-width: 567px) {
@@ -236,7 +270,8 @@ nav ul li a {
         color: #FFFFFF;
     }
     .banner,
-    .habits-cards
+    .habits-cards,
+    .run
     {
         flex-direction: column;
     }
@@ -253,6 +288,12 @@ nav ul li a {
     .habits-card p {
         padding: 0 80px;
         margin-bottom: 40px;
+    }
+    .run {
+        gap: 31px;
+    }
+    .run-text .btn {
+        width: 100%;
     }
     
 }
