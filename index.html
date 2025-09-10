@@ -12,48 +12,50 @@
 </head>
 
 <body>
-    <header class="max-width">
+    <header>
+        <div class="max-width">
+            <!-- navbar section start -->
+            <nav>
+                <h2><i>Fitness</i></h2>
+                <ul class="none-mobile">
+                    <li id="home"><a href="#">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                <span class="none-pc hamburgur"><i class="fa-solid fa-bars"></i></span>
+            </nav>
+            <!-- navbar section end -->
 
-        <!-- navbar section start -->
-        <nav>
-            <h2><i>Fitness</i></h2>
-            <ul class="none-mobile">
-                <li id="home"><a href="#">Home</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-            <span class="none-pc hamburgur"><i class="fa-solid fa-bars"></i></span>
-        </nav>
-        <!-- navbar section end -->
-
-        <!-- banner section start -->
-        <section class="banner">
-            <div class="banner-text">
-                <h2>Get body in <span class="miama">shape</span> & stay healthy</h2>
-                <p>A huge selection of health and fitness content, healthy recipes and transformation stories to help
-                    you get fit and stay fit!</p>
-                <button class="btn">Join Club Now!</button>
-                <button class="btn btn-2">Download App</button>
-            </div>
-            <div class="banner-img">
-                <img src="./images/Images 2.png" alt="">
-                <div class="video-play">
-                    <div class="video-play-icon"><span class="w"><i class="fa-solid fa-play"></i></span></div>
-                    <div class="video-play-text">
-                        <h2>350+</h2>
-                        <p>Video tutorial</p>
+            <!-- banner section start -->
+            <section class="banner">
+                <div class="banner-text">
+                    <h2>Get body in <span class="miama">shape</span> & stay healthy</h2>
+                    <p>A huge selection of health and fitness content, healthy recipes and transformation stories to
+                        help
+                        you get fit and stay fit!</p>
+                    <button class="btn">Join Club Now!</button>
+                    <button class="btn btn-2">Download App</button>
+                </div>
+                <div class="banner-img">
+                    <img src="./images/Images 2.png" alt="">
+                    <div class="video-play">
+                        <div class="video-play-icon"><span class="w"><i class="fa-solid fa-play"></i></span></div>
+                        <div class="video-play-text">
+                            <h2>350+</h2>
+                            <p>Video tutorial</p>
+                        </div>
+                    </div>
+                    <div class="video-count">
+                        <div>
+                            <h2>500+</h2>
+                            <p>Free Workout Videos</p>
+                        </div>
                     </div>
                 </div>
-                <div class="video-count">
-                    <div>
-                        <h2>500+</h2>
-                        <p>Free Workout Videos</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- banner section end -->
+            </section>
+            <!-- banner section end -->
+        </div>
     </header>
 
     <main>
@@ -92,7 +94,8 @@
         <section class="run max-width">
             <div class="run-text">
                 <h2>Run an Extra Mile Easily</h2>
-                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
+                    gym. With hundreds of professional workouts.</p>
                 <button class="btn">Join Now</button>
             </div>
             <div class="run-img">
@@ -100,6 +103,110 @@
             </div>
         </section>
         <!-- run section end -->
+
+        <!-- train section start  -->
+
+        <!-- <section class="train max-width">
+            <h2>Trainings and Exercises</h2>
+            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+
+            <div class="train-cards">
+                <div class="train-card">
+                    <img class="" src="./images/exercise1.jpg" alt="">
+                    <p class="tti-1">Lorem Ipsum</p>
+                </div>
+                <div class="train-card">
+                    <img src="./images/exercise2.png" alt="">
+                    <p class="tti-1">Lorem Ipsum</p>
+                </div>
+                <div class="train-card">
+                    <img src="./images/exercise3.png" alt="">
+                    <p class="tti-2">Leg Press: Works the quadriceps and glutes</p>
+                </div>
+                <div class="train-card">
+                    <img src="./images/exercise4.png" alt="">
+                    <p class="tti-2">Leg Press: Works the quadriceps and glutes</p>
+                </div>
+                <div class="train-card">
+                    <img src="./images/exercise5.jpg" alt="">
+                    <p class="tti-2">Leg Press: Works the quadriceps and glutes</p>
+                </div>
+                <div class="train-card">
+                    <img src="./images/exercise6.jpg" alt="">
+                    <p class="tti-2">Leg Press: Works the quadriceps and glutes</p>
+                </div>
+            </div>
+         </section> -->
+
+        <!-- train section end  -->
+
+        <!-- bmi section start -->
+         <div class="bmi-text">
+                <h2>BMI Calculator</h2>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
+                    gym.</p>
+            </div>
+        <section class="bmi">
+            
+            <div class="bmi-calc">
+                <div class="bmi-m max-width">
+                    <div class="bmi-table">
+                        <h2>BMI Calculator Chart</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>BMI</th>
+                                    <th>Weight Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Below 18.5</td>
+                                    <td>Underweight</td>
+                                </tr>
+                                <tr>
+                                    <td>18.5 - 24.9</td>
+                                    <td>Healthy</td>
+                                </tr>
+                                <tr>
+                                    <td>25.0 - 29.9</td>
+                                    <td>Overweight</td>
+                                </tr>
+                                <tr>
+                                    <td>30.0 and Above</td>
+                                    <td>Obese</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="bmi-input">
+                        <h2>Calculate your BMI</h2>
+                        <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or
+                            access to a gym. </p>
+                        <form action="">
+                            <input type="text" placeholder="Height/cm">
+                            <input type="text" placeholder="Weight/kg">
+                            <input type="number" placeholder="Age">
+                            <select class="" name="" id="">
+                                <option value="">Sex</option>
+                                <option value="">Male</option>
+                                <option value="">Female</option>
+                            </select>
+                            <select class="select-2" name="" id="">
+                                <option value="">Select an activity factor</option>
+                                <option value="">Sedentary</option>
+                                <option value="">Lightly Active</option>
+                                <option value="">Moderately Active</option>
+                                <option value="">Very Active</option>
+                            </select>
+                            <button class="btn">Calculate</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- bmi section end -->
     </main>
 
     <footer></footer>
